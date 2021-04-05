@@ -16,6 +16,7 @@ struct Product {
 class BrowseProductsViewController: UICollectionViewController {
 
     let productsAndPrices = [
+        Product(emoji: "🏥", price: 1000),
         Product(emoji: "👕", price: 2000),
         Product(emoji: "👖", price: 4000),
         Product(emoji: "👗", price: 3000),
